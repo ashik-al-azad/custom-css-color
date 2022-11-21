@@ -1,0 +1,27 @@
+h1{
+   color: rgb(255, 0, 0);
+   font-size: 50px;
+}
+h2{
+   color: rgba(255, 0, 0, 0.5);
+   font-size: 50px;
+}
+p{
+   font-size: 40px;
+   color: green;
+   border: 5px solid blue;
+}
+#header{
+   background-color: #FCB427;
+   padding: 20px;
+   font-size: 18px;
+}
+.body{
+   background-color: tomato;
+   color: #10A864;
+   padding: 10px;
+}
+/*CSS Grouping*/
+h1,p,.body,#header,h2{
+   text-align: center;
+}
